@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color:#FCDFCD;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:200;
+}
+
+h1{
+	color:#da6d2a;
+	font-family: 'Megrim', cursive;
+	font-size:4.5rem;
+	text-align:center;
+}
+h2{
+	color:#da6d2a;
+	font-family: 'Megrim', cursive;
+	font-size:2rem;
+}
+h3{
+	font-family: 'Megrim', cursive;
+	font-size:2rem;
+	color: #da6d2a;
+	text-transform: uppercase;
+	text-align:center;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+
+fieldset{
+	padding:2rem;
+	margin-bottom:2rem;
+	border-radius:20px;
+	border: #f8c9ac;
+	background-color:#f8c9ac;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+input, textarea, select{
+	border-style: none;
+	padding:.25rem 0 .25rem 1rem;
+	border-radius:5px;
+	background-color:#fdf0e8;
+}
+
+label{
+	display:block;
+	padding: 1rem 0 .25rem 0;
+}
+.radio-buttons{
+	display: flex;
+	flex-flow: column wrap;
+}
+
+button{
+	background-color: #da6d2a;
+	color:white;
+	border-style: none;
+	padding:1rem 3rem;
+	border-radius:20px;
+	font-size: 1rem;
+}
+
+aside{
+	margin-top:-1rem;
+}
+
+
+
+
+
+
+
+
+
+
+

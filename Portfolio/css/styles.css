@@ -1,0 +1,247 @@
+/* 
+lightest green #d4f2a557
+Light green #D5F2A5
+medium green #85BD2B
+Dark Green #5C703B
+*/
+
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Futura Std', Helvetica, sans-serif;
+    color:#5C703B;
+}
+
+h1{ 
+    font-weight:500;
+    font-size:1.5rem;
+    color: #85BD2B;
+    text-align: left;
+}
+h2{
+    font-weight:400;
+    font-size:1rem;
+    margin:2rem 0 -.5rem 0;
+}
+
+h3, label{
+    font-weight:400;
+    font-size:.75rem;
+    text-transform:uppercase;
+    padding-bottom:.5rem;
+}
+
+p, ol, ul {
+   color: #666565;
+   font-weight: 100;
+   font-size:1rem;
+   font-weight:100;
+}
+
+img {
+    border-radius: 5px;
+    float:left;
+    clear:both;
+    margin-bottom: 1rem;
+    margin-right:1rem;
+}
+
+footer {
+    border-top: 2px solid #85BD2B;
+    margin-top:3rem;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;  
+}
+footer p {
+    font-weight:100;
+    font-size:.75rem;
+}
+
+footer section a{
+    font-family: futura;
+    font-weight:100;
+    font-size:.75rem;
+    margin-top:.75rem;
+    text-decoration:none;
+    padding: .5rem 1rem;
+    display:inline-block;
+}
+
+/* styling project photos & description gallery at top of page*/
+
+.projects{
+    width:80%;
+    padding: 8rem 1rem;
+    margin:auto;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-evenly;
+}
+.projects p {
+    width: 70%;
+}
+.projects img{
+    margin-bottom: 2rem;
+}
+/* styling About section and making flexbox format facts and description*/
+.about {
+    width:100%;
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top:2rem;
+}
+
+/* styling Nav Bar */
+
+header {
+    width: 100%;
+}
+.sticky{
+    position:fixed;
+    top:-1rem;
+}
+
+.name{
+    margin-top: -5rem;
+    background-color:#5C703b;
+    color: white;
+    padding:1rem .6rem;
+    font-weight:100;
+}
+
+nav ul{
+    list-style-type:none;
+    padding:0;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+}
+
+/*Nav buttons*/
+nav ul li {
+    margin-bottom:.5rem;
+    text-align:center;
+    flex-basis:20%;
+    
+}
+
+/*links pseudo classes */
+a{
+    color:#5C703B;
+    text-decoration:none;
+    font-weight:500;
+}
+
+a:visited{
+    color:#85BD2B;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+li a:visited{
+    color:white;
+}
+
+li a {
+    text-decoration:none;
+    background-color: #5C703B;
+    color: white;
+    display:block;
+    padding: 1rem;
+}
+
+li a:hover {
+    color:white;
+    background-color: #85BD2B;
+    font-weight:500;
+}
+
+.maps{
+    float:left;
+    clear:both;
+    margin-right: 2rem;
+}
+/* Facts Pannel*/
+.facts {
+    background-color: #d4f2a557;
+    padding: 2rem;
+    margin:1rem;
+    width: 25%;
+    border-radius: 10px;
+}
+.facts h3 {
+    padding:1.5rem;
+    border-top: 2px solid #85BD2B;
+    border-bottom: 2px solid #85BD2B;
+}
+
+.middle {
+    width:75%;
+    margin: 2rem;
+    text-align: left;
+}
+
+.middle img{
+    padding-right:2rem;
+}
+
+blockquote {
+    width:95%;
+    padding-left:0;
+    margin: 10rem 0 8rem 0;
+    border-top:2px solid #85BD2B;
+    border-bottom:2px solid #85BD2B;
+}
+
+blockquote p {
+    color:#85BD2B;
+    font-weight:400;
+    font-size:1.35rem;
+    line-height:1.75rem;
+    font-style: italic;
+    padding: 2rem;
+}
+   
+
+/* forms*/
+fieldset{
+    background-color:#d4f2a557;
+    display:flex;
+    flex-flow:row nowrap;
+    height: 40rem;
+    width:80%;
+    margin:auto;
+    margin-top:6rem;
+    border: none;
+}
+
+fieldset legend{
+    color: #85BD2B;
+    font-weight:400;
+    font-size:1.5rem;
+    margin-top:5rem;
+    padding-bottom:5rem;
+    padding-left:3rem;
+}
+
+fieldset section{
+    display:flex;
+    flex-flow:column nowrap;
+    flex-basis:50%;
+    padding-left:3rem;
+}
+input, textarea{
+    border-style: none;
+    width:70%;
+    padding-bottom:1rem;
+    margin-bottom:2rem;
+}
+

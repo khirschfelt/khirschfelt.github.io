@@ -1,0 +1,126 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    margin:auto;
+    padding:0;
+    width:100%;
+}
+
+.header{
+    background-image: url(../images/moon.jpg);
+    min-height:700px;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align:center;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size:8rem;
+    line-height:4rem;
+    padding-top:11rem;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size:4rem;
+    color:rgb(145, 145, 145);
+    padding:0;
+}
+.top-quote{
+    text-align:center;
+    padding:6rem 2rem;
+}
+blockquote{
+    font-family: 'Playfair Display', serif;
+    font-size:1.25rem;
+    line-height: 2.75rem;
+    padding-bottom:3rem;
+}
+
+.wrapper1{
+    display:flex;
+    flex-flow: row nowrap;
+    text-align:left;
+    padding-top:3rem;
+}
+
+.quotes{
+    width:38%;
+    text-align: left;
+    margin:0;
+    padding:0 1rem 0 4rem;
+}
+
+.right-block{
+    width:60%;
+    padding:0 6rem;
+}
+
+.quote2{
+   
+    width:80%;
+    text-align:center;
+    padding:6rem 6rem 3rem 3rem;
+    background-color:rgb(22, 22, 22);
+    margin: 3rem 3rem 5rem 3rem;
+}
+
+.bottom1{
+    width:90%;
+    padding:0 0 0 2rem;
+    display:flex;
+    flex-flow: row nowrap;
+}
+.list{
+    width:40%;
+    padding-left:2rem;
+}
+.bottom-paragraph{
+    width:60%;
+}
+.bottom2{
+    margin: 6rem 3rem;
+    padding:3rem;
+}
+.bottom3{
+    background-color:rgb(22, 22, 22);
+    padding:6rem 6rem 3rem 3rem;
+    margin-bottom:6rem;
+}
+cite{
+    color:rgb(80, 80, 80);
+}
+
+footer{
+    width:90%;
+    text-align:center;
+    padding-left:4rem;
+}
+footer p{
+    font-size:.85rem;
+}
+
+a{
+    text-decoration: none;
+}
+/* Comment */
+
+/* Here I am going to make a psuedo link */
+
+a.book:link {
+    color: #85BD2B;
+}
+
+a.book:visited {
+    color: aquamarine;
+}
+
+a.book:hover{
+    color:coral;
+    text-decoration: underline;
+}

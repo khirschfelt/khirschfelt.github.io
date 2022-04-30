@@ -13,6 +13,11 @@ html {
     box-sizing: inherit;
 }
 
+.wrapper {
+    width:90%;
+    align-items: center;
+}
+
 body {
     font-family: 'Futura Std', Helvetica, sans-serif;
     color:#5C703B;
@@ -46,10 +51,10 @@ p, ol, ul {
 
 img {
     border-radius: 5px;
-    float:left;
-    clear:both;
     margin-bottom: 1rem;
     margin-right:1rem;
+    float:left;
+    clear:both;
 }
 
 footer {
@@ -81,12 +86,10 @@ footer section a{
     padding: 8rem 1rem;
     margin:auto;
     display:flex;
-    flex-flow:row nowrap;
+    flex-flow:column;
     justify-content: space-evenly;
 }
-.projects p {
-    width: 70%;
-}
+
 .projects img{
     margin-bottom: 2rem;
 }
